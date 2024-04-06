@@ -198,7 +198,8 @@ png(filename = 'output/Chawia_cor.png', width = 1600, height = 2200, res = 300)
 corrplot(cor_mat_Chawia, method = 'ellipse', diag = FALSE, 
          addCoef.col = 'black', number.cex = 0.9, type = 'lower',
          tl.cex = 1.3, tl.col = 'black',sig.level = 'label_sig')
-dev.off()
+
+
 
 
 
